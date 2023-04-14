@@ -7,3 +7,20 @@ services:
       context: ./movie-api
     ports:
       - 8090:3000
+    environment:
+      - DATABASE_PASSWORD=1234
+      - DATABASE_USER=postgres
+      - DATABASE_NAME=api
+
+  database:
+    container_name: database
+    image: postgres:15.2
+    environment:
+      - POSTGRES_PASSWORD=1234
+      - POSTGRES_USER=postgres
+      - POSTGRES_DB=api
+    volumes:
+      - database-api:/var/lib/postgresql/data
+
+volumes:
+  database-api:
