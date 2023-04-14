@@ -75,7 +75,7 @@
     docker container prune
     ```
 
-- Remove todas as imagens sem tag (<none>)
+- Remove todas as imagens sem tag ( < none > )
     ```sh
     docker image prune
     ```
