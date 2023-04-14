@@ -2,9 +2,9 @@
 
 Descrição: parte do minicurso **Provisionando aplicações com Docker**, apresentado na **III Semana da Engenharia de Computação de Sobral (SECS 2023)** . Aqui vocês têm acesso à [apresentação](SECS_2023_Minicurso_sobre_container.pdf) e aos códigos utilizados da prática:
 
-- Atividade 1: alguns comandos iniciais
-- Atividade 2: criação de imagem
-- Atividade 3: configuração de compose
+- [Atividade 1](/at-01-run-container): alguns comandos iniciais
+- [Atividade 2](/at-02-build-image/): criação de imagem
+- [Atividade 3](/at-03-configure-compose/): configuração de compose
 
 Mais material de estudo:
 
