@@ -1,11 +1,11 @@
 # Comandos iniciais
 
-- Ver a versão do Docker
+- Apresenta a versão do Docker
 ```sh
 docker -v
 ```
 
-- Ver a versão do Docker Compose
+- Apresenta a versão do Docker Compose
 ```sh
 docker compose version
 ```
@@ -56,7 +56,7 @@ docker logs pgadmin -f
 docker stop pgadmin
 ```
 
-- Remove o container pgadmin, se eles estiver parado 
+- Remove o container pgadmin, se ele estiver parado 
 ```sh
 docker container rm pgadmin
 ```
