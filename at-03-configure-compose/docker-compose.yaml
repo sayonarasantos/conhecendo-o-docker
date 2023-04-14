@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  api:
+    container_name: api
+    build:
+      context: ./movie-api
+    ports:
+      - 8090:3000
