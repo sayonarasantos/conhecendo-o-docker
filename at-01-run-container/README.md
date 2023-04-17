@@ -36,9 +36,9 @@
     >
     >  -p: Mapea a porta do container para a máquina hospedeira. Sintaxe: porta_da_máquina_hospedeira:porta_do_container
     >
-    >  -d: desanexar a execução do container do terminal. O container irá executar em background.
+    >  -d: Desanexa a execução do container do terminal. O container irá executar em background.
     >
-    >  --name: nome do container
+    >  --name: Configura o nome do container
 
 - Lista os containers em execução
     ```sh
