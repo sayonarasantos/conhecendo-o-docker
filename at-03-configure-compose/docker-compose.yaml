@@ -11,10 +11,14 @@ services:
       - DATABASE_PASSWORD=1234
       - DATABASE_USER=postgres
       - DATABASE_NAME=api
+      - DATABASE_HOST=database
+      - DATABASE_PORT=5432
 
   database:
     container_name: database
     image: postgres:15.2
+    ports:
+      - 8080:5432
     environment:
       - POSTGRES_PASSWORD=1234
       - POSTGRES_USER=postgres
